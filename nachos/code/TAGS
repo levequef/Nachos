@@ -1,0 +1,180 @@
+
+bin/coff2flat.c,145
+#define MAIN15,553
+#undef MAIN17,589
+#define StackSize 31,887
+#define ReadStruct(32,937
+void Read(37,1047
+void Write(46,1225
+main 55,1399
+
+bin/coff2noff.c,206
+#define MAIN23,849
+#undef MAIN25,886
+WordToHost(45,1299
+ShortToHost(59,1632
+#define ReadStruct(70,1885
+char *noffFileName noffFileName72,1940
+void Read(75,1999
+void Write(85,2207
+int main 94,2381
+
+bin/d.c,131
+#define NULL	11,270
+int sptr;13,286
+int longdis 14,296
+char *regstrings[regstrings19,357
+#define R(27,594
+dump_ascii(30,623
+
+bin/disasm.c,762
+static FILE *fp;fp18,383
+static LDFILE *ldptr;ldptr19,400
+static SCNHDR texthead,20,422
+static SCNHDR texthead, rdatahead,20,422
+static SCNHDR texthead, rdatahead, datahead,20,422
+static SCNHDR texthead, rdatahead, datahead, sdatahead,20,422
+static SCNHDR texthead, rdatahead, datahead, sdatahead, sbsshead,20,422
+static SCNHDR texthead, rdatahead, datahead, sdatahead, sbsshead, bsshead;20,422
+static char filename[filename22,498
+static char self[self23,561
+char mem[mem25,618
+int TRACE,26,674
+int TRACE, Traptrace,26,674
+int TRACE, Traptrace, Regtrace;26,674
+int NROWS=27,706
+int pc;28,756
+main(32,789
+#define LOADSECTION(69,1422
+load_section(71,1470
+load_program(88,1870
+int *m_alloc(m_alloc140,3282
+disasm(148,3379
+dis1(162,3546
+
+bin/execute.c,877
+#define FAST	14,307
+#define true	15,322
+#define false	16,337
+int Reg[Reg23,427
+int HI,24,454
+int HI, LO;24,454
+int numjmpls;27,535
+int arch1cycles;28,549
+#define  b31(31,601
+#define cc_add(34,708
+#define cc_sub(40,857
+#define cc_logic(48,1072
+#define cc_mulscc(54,1149
+runprogram(61,1317
+u(378,8659
+ny(383,8740
+RS(391,8824
+RT(397,8857
+RD(403,8890
+IM(409,8923
+dump_reg(417,8961
+ilog2(447,9432
+#define NH 465,9831
+#define NNN 466,9849
+static int hists[hists468,9869
+int hoflo[hoflo469,9896
+int hoflo[NH], htotal[htotal469,9896
+void henters(471,9924
+hprint(478,10048
+int numadds=501,10475
+int addtable[addtable502,10527
+int subtable[subtable503,10549
+char fmt[fmt505,10572
+char fmt2[fmt2506,10592
+patable(508,10617
+printstatistics(533,10937
+#define NNNN	555,11471
+static int hist[hist557,11490
+henter(559,11514
+printhist(566,11579
+
+bin/main.c,723
+static FILE *fp;fp18,382
+static LDFILE *ldptr;ldptr19,399
+static SCNHDR texthead,20,421
+static SCNHDR texthead, rdatahead,20,421
+static SCNHDR texthead, rdatahead, datahead,20,421
+static SCNHDR texthead, rdatahead, datahead, sdatahead,20,421
+static SCNHDR texthead, rdatahead, datahead, sdatahead, sbsshead,20,421
+static SCNHDR texthead, rdatahead, datahead, sdatahead, sbsshead, bsshead;20,421
+static char filename[filename22,497
+static char self[self23,560
+char mem[mem25,617
+int TRACE,26,673
+int TRACE, Traptrace,26,673
+int TRACE, Traptrace, Regtrace;26,673
+int NROWS=27,705
+main(31,780
+char *string(string81,1781
+load_program(92,1909
+#define LOADSECTION(112,2282
+int *m_alloc(m_alloc160,3510
+
+bin/opstrings.c,69
+char *normalops[normalops9,231
+char *specialops[specialops76,788
+
+bin/out.c,889
+#define MAIN7,207
+#undef MAIN9,243
+#define read_struct(29,649
+#define MAXRELOCS 31,704
+#define MAXDATA 34,729
+struct data 36,752
+  long data[data37,766
+  struct reloc reloc[reloc38,788
+  int length;39,821
+  int relocs;40,835
+#define MAXSCNS 43,853
+#define MAXSYMS 44,872
+#define MAXSSPACE 45,892
+struct filehdr filehdr;47,917
+struct aouthdr aouthdr;48,941
+struct scnhdr scnhdr[scnhdr49,965
+struct data section[section50,996
+HDRR symhdr;51,1026
+EXTR symbols[symbols52,1039
+char sspace[sspace53,1062
+char *symbol_type[symbol_type55,1083
+char *storage_class[storage_class60,1269
+main(66,1540
+static column 148,3755
+static FILE *outfile outfile149,3774
+myprintf(153,3840
+mytab(174,4187
+mysetfile(184,4297
+#define printf 190,4339
+print_section(193,4379
+char *section_name[section_name224,5011
+char *reloc_type[reloc_type229,5135
+print_reloc(233,5223
+
+bin/system.c,137
+system_break(19,398
+system_trap(26,480
+#define	IOCPARM_MASK	89,1649
+char *u_to_int_addr(u_to_int_addr125,2367
+u_to_int_fd(133,2543
+
+test/halt.c,13
+main 16,496
+
+test/matmult.c,81
+#define Dim 12,274
+int A[A16,367
+int B[B17,384
+int C[C18,401
+main 21,423
+
+test/shell.c,11
+main 4,26
+
+test/sort.c,29
+int A[A12,272
+main 15,358
